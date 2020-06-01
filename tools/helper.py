@@ -248,37 +248,37 @@ def check_gpu():
 
 def assign_label(cl_target):
     
-    if cl_target == '11':
+    if cl_target == 'A':
         new_label = 0
-    if cl_target == '23':     
+    if cl_target == 'B':     
         new_label = 1
-    if cl_target == '24':
+    if cl_target == 'C':
         new_label = 2 
-    if cl_target == '25':
+    if cl_target == 'D':
         new_label = 3
-    if cl_target == '26':
+    if cl_target == 'E':
         new_label = 4        
-    if cl_target == '27':
+    if cl_target == 'F':
         new_label = 5        
-    if cl_target == '29':
+    if cl_target == 'G':
         new_label = 6        
-    if cl_target == '41':
+    if cl_target == 'H':
         new_label = 7
-    if cl_target == '51':
+    if cl_target == 'I':
         new_label = 8  
-    if cl_target == '71':
+    if cl_target == 'J':
         new_label = 9        
-    if cl_target == '86':
+    if cl_target == 'K':
         new_label = 10                
-    if cl_target == '87':
+    if cl_target == 'L':
         new_label = 11       
-    if cl_target == '33':
+    if cl_target == 'M':
         new_label = 12       
-    if cl_target == '82':
+    if cl_target == 'N':
         new_label = 13
-    if cl_target == '98':
+    if cl_target == 'O':
         new_label = 14       
-    if cl_target == '404':
+    if cl_target == 'U':
         new_label = 15
         
     return new_label
@@ -287,37 +287,37 @@ def assign_label(cl_target):
 def assign_class(label):
 
     if label == 0:
-        new_class = '11'
+        new_class = 'A'
     if label == 1:     
-        new_class = '23'
+        new_class = 'B'
     if label == 2:
-        new_class = '24'
+        new_class = 'C'
     if label == 3:
-        new_class = '25'
+        new_class = 'D'
     if label == 4:
-        new_class = '26'        
+        new_class = 'E'        
     if label == 5:
-        new_class = '27'       
+        new_class = 'F'       
     if label == 6:
-        new_class = '29'        
+        new_class = 'G'        
     if label == 7:
-        new_class = '41'
+        new_class = 'H'
     if label == 8:
-        new_class = '51' 
+        new_class = 'I' 
     if label == 9:
-        new_class = '71'        
+        new_class = 'J'        
     if label == 10:
-        new_class = '86'                
+        new_class = 'K'                
     if label == 11:
-        new_class = '87'       
+        new_class = 'L'       
     if label == 12:
-        new_class = '33'       
+        new_class = 'M'       
     if label == 13:
-        new_class = '82'
+        new_class = 'N'
     if label == 14:
-        new_class = '98'      
+        new_class = 'O'      
     if label == 15:
-        new_class = '404'
+        new_class = 'U'
         
     return new_class    
     
